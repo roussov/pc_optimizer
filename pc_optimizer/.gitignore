@@ -1,0 +1,51 @@
+# Fichiers objets et exécutables
+*.o
+*.obj
+*.exe
+*.dll
+*.out
+*.bin
+
+# Dossiers de build
+/build/
+/bin/
+/build_debug/
+/build_release/
+
+# Fichiers temporaires, logs
+*.log
+*.tmp
+*.temp
+
+# Visual Studio et autres IDE Windows
+.vscode/
+*.vcxproj*
+*.sln
+*.user
+*.opensdf
+*.sdf
+
+
+
+# Backup éditeur
+*~
+*.bak
+*.swp
+*.swo
+
+# MacOS
+.DS_Store
+
+# Windows thumbnail cache files
+Thumbs.db
+
+# CMake files (si jamais tu en utilises)
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# NSIS/InnoSetup build files (exemples)
+*.nsis
+*.nsi
+*.iss
