@@ -1,0 +1,17 @@
+# Normaliser les fins de ligne sur LF dans Git (Windows / Linux compatible)
+* text=auto
+
+# Forcer LF sur fichiers texte
+*.c     text eol=lf
+*.h     text eol=lf
+*.md    text eol=lf
+*.txt   text eol=lf
+*.sh    text eol=lf
+
+# Binaire
+*.exe   binary
+*.dll   binary
+*.o     binary
+*.obj   binary
+*.bin   binary
+
